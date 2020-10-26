@@ -1,0 +1,3 @@
+DeviceLogonEvents
+|where Timestamp > ago(3d) 
+|where RemoteIP in ("place your IP here")  //Incase you have a list of IP's place them between the brackets and the double qoutations and add comma between each one.
